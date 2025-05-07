@@ -1,0 +1,166 @@
+\t (00:00:15) allegro 22.1 P001 Windows SPB 64-bit Edition
+\t (00:00:15)     Journal start - Sat Apr 26 17:39:44 2025
+\t (00:00:15)         Host=LAPTOP-UI3E7IRP User=Japhe Pid=19124 CPUs=8
+\t (00:00:15) CmdLine= C:\Cadence\SPB_22.1\tools\bin\allegro.exe
+\t (00:00:15) 
+   (00:00:15) Loading axlcore.cxt 
+\t (00:00:18) Opening existing design...
+\i (00:00:19) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "led_project 1"
+\d (00:00:19) Design opened: C:/Projects/OrCAD/allegro/led_project 1.brd
+\i (00:00:19) trapsize 1888
+\i (00:00:19) trapsize 1940
+\i (00:00:19) trapsize 1888
+\i (00:00:19) trapsize 1960
+\t (00:00:19) > Sending response DoneOpenBoard
+\i (00:00:19) updateport CVPane
+\i (00:00:19) shapeedit 
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 79.9092 65.3055
+\i (00:00:21) trapsize 980
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 79.9092 65.3055
+\i (00:00:21) trapsize 490
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 79.9093 65.3055
+\i (00:00:21) trapsize 245
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 79.9093 65.3055
+\i (00:00:21) trapsize 490
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 79.9092 65.3252
+\i (00:00:21) trapsize 980
+\i (00:00:21) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 79.9092 65.3251
+\i (00:00:22) trapsize 1960
+\i (00:00:25) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (00:00:25) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:38) simulation workflow 
+\i (00:00:38) shapeedit 
+\i (00:03:06) pick grid 86.0622 63.3265
+\t (00:03:06) last pick:  86.0000 63.5000
+\i (00:03:06) pick grid dbl 86.0622 63.3265
+\t (00:03:06) last pick:  86.0000 63.5000
+\i (00:03:08) pick grid 96.0167 67.4415
+\t (00:03:08) last pick:  96.0000 67.5000
+\i (00:03:10) pick grid 83.4364 71.9484
+\t (00:03:10) last pick:  83.5000 72.0000
+\i (00:03:10) pick grid dbl 83.4364 71.9484
+\t (00:03:10) last pick:  83.5000 72.0000
+\i (00:03:11) pick grid 83.0445 72.2619
+\t (00:03:11) last pick:  83.0000 72.5000
+\i (00:03:12) pick grid 79.3998 72.3795
+\t (00:03:12) last pick:  79.5000 72.5000
+\i (00:03:12) drag_start grid 76.8524 71.4781
+\i (00:03:13) drag_stop 73.1293 64.9333
+\i (00:03:14) pick grid 75.7159 70.3416
+\t (00:03:14) last pick:  75.5000 70.5000
+\i (00:03:19) pick grid 99.7398 66.8144
+\t (00:03:19) last pick:  99.5000 67.0000
+\i (00:03:45) QtSignal AnalysisDialog SelectWorkflow CurrentIndexChanged "Crosstalk Workflow"
+\i (00:04:27) QtSignal CrosstalkWorkflow SelectNets linkActivated "select_nets"
+\t (00:04:27) Select nets
+
+\i (00:04:27) net probe 
+\i (00:04:39) QtSignal XtalkNetSel displayButton CurrentIndexChanged Hierarchical
+\i (00:05:02) QtSignal XtalkNetSel allNetTree itemSelectionChanged Net "+3V3"
+\i (00:05:04) QtSignal XtalkNetSel allNetTree itemSelectionChanged Net DIODE1
+\i (00:05:07) QtSignal XtalkNetSel selButton clicked
+\i (00:05:12) QtSignal XtalkNetSel applyButton clicked
+\i (00:05:25) QtSignal XtalkNetSel allNetTree itemSelectionChanged Net DIODE2
+\i (00:05:27) QtSignal XtalkNetSel selButton clicked
+\i (00:05:28) QtSignal XtalkNetSel allNetTree itemSelectionChanged Net "+3V3"
+\i (00:05:29) QtSignal XtalkNetSel selButton clicked
+\i (00:05:31) QtSignal XtalkNetSel applyButton clicked
+\i (00:05:31) QtSignal XtalkNetSel okButton clicked
+\i (00:05:31) shapeedit 
+\i (00:05:44) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:05:44) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net +3V3  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:44) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:44) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE2  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:05:45) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:05:45) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net +3V3  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:45) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:45) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE2  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:05:48) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:05:48) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net +3V3  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:48) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:48) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE2  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:05:50) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:05:50) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net +3V3  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:50) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:50) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE2  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:05:51) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:05:51) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net +3V3  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:51) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:51) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE2  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:05:52) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:05:52) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net +3V3  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:52) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:52) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE2  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:05:53) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:05:53) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net +3V3  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:53) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\w (00:05:53) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE2  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:05:55) QtSignal CrosstalkWorkflow AnalysisOpt linkActivated "analysis_opt"
+\i (00:06:04) QtSignal XtalkPrefDialog XtalkPrefDialog closed
+\i (00:06:06) QtSignal CrosstalkWorkflow SelectNets linkActivated "select_nets"
+\t (00:06:06) Select nets
+
+\i (00:06:06) net probe 
+\i (00:06:10) QtSignal XtalkNetSel allSelTree itemSelectionChanged Net "+3V3"
+\i (00:06:11) QtSignal XtalkNetSel rmAllButton clicked
+\i (00:06:12) QtSignal XtalkNetSel allNetTree itemSelectionChanged Net DIODE1
+\i (00:06:15) QtSignal XtalkNetSel selButton clicked
+\i (00:06:16) QtSignal XtalkNetSel applyButton clicked
+\i (00:06:17) QtSignal XtalkNetSel okButton clicked
+\i (00:06:17) shapeedit 
+\i (00:06:19) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:06:19) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:06:20) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:06:20) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:06:21) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:06:21) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:06:23) QtSignal CrosstalkWorkflow AnalysisOpt linkActivated "analysis_opt"
+\i (00:06:25) QtSignal XtalkPrefDialog TabWidget currentChanged Aggressor
+\i (00:06:27) QtSignal XtalkPrefDialog TabWidget currentChanged Simulation
+\i (00:06:38) QtSignal XtalkPrefDialog TabWidget currentChanged Aggressor
+\i (00:06:46) QtSignal XtalkPrefDialog GeoWindowLine editingFinished 1
+\i (00:06:46) QtSignal XtalkPrefDialog ApplyButton clicked
+\i (00:06:47) QtSignal XtalkPrefDialog OKButton clicked
+\i (00:06:48) QtSignal CrosstalkWorkflow AnalysisOpt linkActivated "analysis_opt"
+\i (00:06:49) QtSignal XtalkPrefDialog OKButton clicked
+\i (00:06:50) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:06:50) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:06:53) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:06:53) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:06:53) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:06:53) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:06:54) QtSignal CrosstalkWorkflow AnalysisOpt linkActivated "analysis_opt"
+\i (00:07:00) QtSignal XtalkPrefDialog GeoWindowLine editingFinished 5
+\i (00:07:00) QtSignal XtalkPrefDialog OKButton clicked
+\i (00:07:02) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:07:02) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:07:06) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:07:06) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:07:07) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:07:07) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:07:07) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\w (00:07:07) WARNING(SPMHGE-711): Can not find aggressor net(s) on (X)Net DIODE1  Will skip it as victim. Increase GeoWindow setting to find aggressor net.
+\i (00:07:09) QtSignal CrosstalkWorkflow AnalysisOpt linkActivated "analysis_opt"
+\i (00:07:19) QtSignal XtalkPrefDialog GeoWindowLine editingFinished 100
+\i (00:07:19) QtSignal XtalkPrefDialog ApplyButton clicked
+\i (00:07:20) QtSignal XtalkPrefDialog OKButton clicked
+\i (00:07:21) QtSignal CrosstalkWorkflow StartAnalysis linkActivated "start_analysis"
+\e (00:07:21) Failed to load AMM DLL because it could not be found. Ensure that Sigrity release 2022.1, ISR3 (HF3) or later is installed and the SIGRITY_EDA_DIR environment variable is set to the installation directory. The latest Sigrity software can be installed from <a href="https://downloads.cadence.com">https://downloads.cadence.com</a>.
+\i (00:07:30) fillin confirm
+\i (00:07:35) exit 
+\e (00:07:35) Do you want to save the changes you made to led_project 1.brd?
+\i (00:07:37) fillin no 
+\i (00:07:37) QtSignal XtalkPrefDialog XtalkPrefDialog closed
+\t (00:07:37)     Journal end - Sat Apr 26 17:47:06 2025

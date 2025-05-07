@@ -1,0 +1,66 @@
+{
+    "Component": [
+        {
+            "AsiModelName": "LED_PROJECT 1_D1_DEFAULT",
+            "IBISFilePath": "C:\\Projects\\OrCAD\\allegro\\asi_models\\led_project 1_d1_default.ibs",
+            "Pin": [
+                {
+                    "DiffPair": "",
+                    "PinName": "2",
+                    "PinUse": "BI",
+                    "SignalName": "DIODE1"
+                },
+                {
+                    "DiffPair": "",
+                    "PinName": "1",
+                    "PinUse": "BI",
+                    "SignalName": "GND"
+                }
+            ],
+            "RefDes": "D1"
+        }
+    ],
+    "DefaultModel": {
+        "DiffPair": [
+            {
+                "IBISFilePath": "C:/Cadence/SPB_22.1/share/pcb/ida/ibis_cds_default_2p5v_diff.ibs",
+                "ModelName": "cds_bi_gen_2p5v_10_10pf",
+                "PinUse": "BI",
+                "SearchPath": "C:/Cadence/SPB_22.1/share/pcb/ida"
+            },
+            {
+                "IBISFilePath": "C:/Cadence/SPB_22.1/share/pcb/ida/ibis_cds_default_2p5v_diff.ibs",
+                "ModelName": "cds_in_gen_2p5v_10pf_50down",
+                "PinUse": "IN",
+                "SearchPath": "C:/Cadence/SPB_22.1/share/pcb/ida"
+            },
+            {
+                "IBISFilePath": "C:/Cadence/SPB_22.1/share/pcb/ida/ibis_cds_default_2p5v_diff.ibs",
+                "ModelName": "cds_out_gen_2p5v_10_10pf",
+                "PinUse": "OUT",
+                "SearchPath": "C:/Cadence/SPB_22.1/share/pcb/ida"
+            }
+        ],
+        "SingleEnded": [
+            {
+                "IBISFilePath": "C:/Cadence/SPB_22.1/share/pcb/ida/ibis_cds_default_2p5v_bidirs.ibs",
+                "ModelName": "cds_bi_gen_2p5v_10_10pf",
+                "PinUse": "BI",
+                "SearchPath": "C:/Cadence/SPB_22.1/share/pcb/ida"
+            },
+            {
+                "IBISFilePath": "C:/Cadence/SPB_22.1/share/pcb/ida/ibis_cds_default_2p5v_receivers.ibs",
+                "ModelName": "cds_in_gen_2p5v_10pf_noterm",
+                "PinUse": "IN",
+                "SearchPath": "C:/Cadence/SPB_22.1/share/pcb/ida"
+            },
+            {
+                "IBISFilePath": "C:/Cadence/SPB_22.1/share/pcb/ida/ibis_cds_default_2p5v_drivers.ibs",
+                "ModelName": "cds_out_gen_2p5v_10_10pf",
+                "PinUse": "OUT",
+                "SearchPath": "C:/Cadence/SPB_22.1/share/pcb/ida"
+            }
+        ]
+    }
+}
+

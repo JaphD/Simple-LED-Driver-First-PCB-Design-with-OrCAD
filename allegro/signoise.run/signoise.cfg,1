@@ -1,0 +1,3 @@
+(RunGlobals 
+ (SPDIF_NotSelectEntireNets t ) 
+ (SPDIF_ExtractionBatchMode t ) ) 

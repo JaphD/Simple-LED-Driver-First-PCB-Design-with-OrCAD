@@ -1,0 +1,19 @@
+BRDExtractor Version 11.1.4
+From file : C:/Projects/OrCAD/allegro/led_project 1.brd
+To file : C:/Projects/OrCAD/allegro/led_project 1.spd
+Apr 26 15:24:34 2025
+
+Nets Translated :
+	+3V3
+
+Settings :
+	Translate power layer to : Plane or Signal
+	Add default bumps : 1
+	Include elements with no net names
+	Remove Unused Pads
+	Translate component outline
+	Plating thickness: 0 mm
+	Union traces shorter than 0 mm
+	Maximum arc length replaced by line segment 0.2 mm
+	Extract Location : C:/Cadence/SPB_22.1/tools/bin/extracta.exe
+	ENV Install Path : C:/Cadence/SPB_22.1/share/pcb/text/env

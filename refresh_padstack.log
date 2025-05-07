@@ -1,0 +1,50 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : led0603g.dra                                  )
+(    Software Version : 22.1P001                                      )
+(    Date/Time        : Fri Apr 25 08:22:05 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Apr 25 08:22:05 2025				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/OrCAD/led0603g.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_22.1/share/local/pcb/symbols 
+           c:/cadence/spb_22.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_22.1/share/pcb/allegrolib/symbols 
+           C:/OrCAD 
+
+PADPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_22.1/share/local/pcb/padstacks 
+           c:/cadence/spb_22.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_22.1/share/pcb/allegrolib/symbols 
+           C:/OrCAD 
+
+
+------ Pad Stack Refresh Messages ------
+
+'LED_PIN'  pad stack refresh starting.
+
+     'LED_PIN'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

@@ -1,0 +1,80 @@
+Fri Apr 25 08:53:57 2025				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Fri Apr 25 08:53:57 2025
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : led_project 1.brd                             )
+(    Software Version : 22.1P001                                      )
+(    Date/Time        : Fri Apr 25 08:53:57 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Apr 25 08:53:57 2025				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'C:/OrCAD/allegro/led_project 1.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'YES'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_22.1/share/local/pcb/symbols 
+           c:/cadence/spb_22.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_22.1/share/pcb/allegrolib/symbols 
+           C:/OrCAD 
+
+PADPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_22.1/share/local/pcb/padstacks 
+           c:/cadence/spb_22.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_22.1/share/pcb/allegrolib/symbols 
+           C:/OrCAD 
+
+
+------ Symbol Refresh Messages ------
+
+'R0805'  symbol refreshed successfully.
+'HDR1X2'  symbol refreshed successfully.
+'LED0603G'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 3 out 3
+    Design updated.
+

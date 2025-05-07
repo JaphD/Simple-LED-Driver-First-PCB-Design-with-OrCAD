@@ -1,0 +1,16 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PDF Export                                                       )
+(                                                                     )
+(    Software Version : 22.1P001                                      )
+(    Date/Time        : Fri Apr 25 11:19:03 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Warning: Text width 0.079 is too big for header and was adjusted to 0.172 to fit the page margin for ASMT.
+Warning: Text width 0.079 is too big for footer and was adjusted to 0.172 to fit the page margin for ASMT.
+Warning: Text width 0.079 is too big for header and was adjusted to 0.172 to fit the page margin for ASMB.
+Warning: Text width 0.079 is too big for footer and was adjusted to 0.172 to fit the page margin for ASMB.
+Design file: C:/OrCAD/allegro/led_project 1.brd
+pdf_out complete.
